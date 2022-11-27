@@ -8,7 +8,7 @@ This ESP tool reads the metrics data from the Solax X3 Hybrid Gen4 inverter via 
 ## Hardware
 
 * The Solax X3 Hybrid Gen4 inverter provides a modbus RTU (RS485) interface (it is called COM on the inverter)
-  * Remark: some older versions of this inverter also supported modbus TCP, but sind the 4 generation this option was removed (why??)
+  * Remark: some older versions of this inverter also supported modbus TCP but since the 4 generation this option was removed (I don't understand why??)
   * The modbus default baudrate for this device is `19200`
 * I used the NodeMCU version of esp8266
 * A RJ45 socket is used for this interface
